@@ -33,13 +33,7 @@ class LocipCommand(commands.Cog):
                 color=discord.Colour.blue()
             )
 
-            del_button = discord.ui.Button(
-                label="Esquecer",
-                style=discord.ButtonStyle.red,
-                custom_id="ignore"
-            )
-
-            await ctx.send(embed=embed, components=[del_button])
+            await ctx.send(embed=embed)
 
         except Exception:
             print(Exception)
