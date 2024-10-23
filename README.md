@@ -10,4 +10,5 @@ Por fim, inicialize o bot executando o script do arquivo `main.py`
 Administrador: ban, kick e clear
 Utils: avatar, locip
 Slash: traduzir, locip, avatar
-``` (Use o prefixo que você definiu no arquivo json antes do do comando)
+(Use o prefixo que você definiu no arquivo json antes do do comando)
+```
